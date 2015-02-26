@@ -7,13 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PriceRangeSelector.h"
+#define kScreenWidth      [[UIScreen mainScreen] bounds].size.width
 
-@class DetailViewController;
+@interface MasterViewController : UIViewController<PriceRangeDelegate>
 
-@interface MasterViewController : UITableViewController
-
-@property (strong, nonatomic) DetailViewController *detailViewController;
-
+@property (nonatomic, retain) PriceRangeSelector *priceSlider;
+@property (nonatomic, retain) UILabel *lblPrice;
 
 @end
 

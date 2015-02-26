@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CD3ACD11A9EC1F400CDB39A /* priceslider.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD3ACCB1A9EC1F400CDB39A /* priceslider.png */; };
+		1CD3ACD21A9EC1F400CDB39A /* priceslider@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD3ACCC1A9EC1F400CDB39A /* priceslider@2x.png */; };
+		1CD3ACD31A9EC1F400CDB39A /* sliderbg.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD3ACCD1A9EC1F400CDB39A /* sliderbg.png */; };
+		1CD3ACD41A9EC1F400CDB39A /* sliderbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD3ACCE1A9EC1F400CDB39A /* sliderbg@2x.png */; };
+		1CD3ACD51A9EC1F400CDB39A /* sliderconnect.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD3ACCF1A9EC1F400CDB39A /* sliderconnect.png */; };
+		1CD3ACD61A9EC1F400CDB39A /* sliderconnect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CD3ACD01A9EC1F400CDB39A /* sliderconnect@2x.png */; };
 		1CD4135D1A8DD0FA00EE0FAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD4135C1A8DD0FA00EE0FAD /* main.m */; };
 		1CD413601A8DD0FA00EE0FAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD4135F1A8DD0FA00EE0FAD /* AppDelegate.m */; };
 		1CD413631A8DD0FA00EE0FAD /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD413621A8DD0FA00EE0FAD /* MasterViewController.m */; };
-		1CD413661A8DD0FA00EE0FAD /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD413651A8DD0FA00EE0FAD /* DetailViewController.m */; };
-		1CD413691A8DD0FA00EE0FAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CD413671A8DD0FA00EE0FAD /* Main.storyboard */; };
-		1CD4136B1A8DD0FA00EE0FAD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CD4136A1A8DD0FA00EE0FAD /* Images.xcassets */; };
-		1CD4136E1A8DD0FA00EE0FAD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CD4136C1A8DD0FA00EE0FAD /* LaunchScreen.xib */; };
 		1CD4137A1A8DD0FA00EE0FAD /* PriceRangeSelectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD413791A8DD0FA00EE0FAD /* PriceRangeSelectorTests.m */; };
+		1CD413851A8DD1A000EE0FAD /* PriceRangeSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CD413841A8DD1A000EE0FAD /* PriceRangeSelector.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +31,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1CD3ACCB1A9EC1F400CDB39A /* priceslider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = priceslider.png; sourceTree = "<group>"; };
+		1CD3ACCC1A9EC1F400CDB39A /* priceslider@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "priceslider@2x.png"; sourceTree = "<group>"; };
+		1CD3ACCD1A9EC1F400CDB39A /* sliderbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sliderbg.png; sourceTree = "<group>"; };
+		1CD3ACCE1A9EC1F400CDB39A /* sliderbg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sliderbg@2x.png"; sourceTree = "<group>"; };
+		1CD3ACCF1A9EC1F400CDB39A /* sliderconnect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sliderconnect.png; sourceTree = "<group>"; };
+		1CD3ACD01A9EC1F400CDB39A /* sliderconnect@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sliderconnect@2x.png"; sourceTree = "<group>"; };
 		1CD413571A8DD0FA00EE0FAD /* PriceRangeSelector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PriceRangeSelector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CD4135B1A8DD0FA00EE0FAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CD4135C1A8DD0FA00EE0FAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -35,14 +44,11 @@
 		1CD4135F1A8DD0FA00EE0FAD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1CD413611A8DD0FA00EE0FAD /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		1CD413621A8DD0FA00EE0FAD /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		1CD413641A8DD0FA00EE0FAD /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		1CD413651A8DD0FA00EE0FAD /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		1CD413681A8DD0FA00EE0FAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1CD4136A1A8DD0FA00EE0FAD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		1CD4136D1A8DD0FA00EE0FAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1CD413731A8DD0FA00EE0FAD /* PriceRangeSelectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PriceRangeSelectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CD413781A8DD0FA00EE0FAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CD413791A8DD0FA00EE0FAD /* PriceRangeSelectorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PriceRangeSelectorTests.m; sourceTree = "<group>"; };
+		1CD413831A8DD1A000EE0FAD /* PriceRangeSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PriceRangeSelector.h; sourceTree = "<group>"; };
+		1CD413841A8DD1A000EE0FAD /* PriceRangeSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PriceRangeSelector.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CD3A3BB1A9DD2FE00F61FEB /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				1CD3ACCB1A9EC1F400CDB39A /* priceslider.png */,
+				1CD3ACCC1A9EC1F400CDB39A /* priceslider@2x.png */,
+				1CD3ACCD1A9EC1F400CDB39A /* sliderbg.png */,
+				1CD3ACCE1A9EC1F400CDB39A /* sliderbg@2x.png */,
+				1CD3ACCF1A9EC1F400CDB39A /* sliderconnect.png */,
+				1CD3ACD01A9EC1F400CDB39A /* sliderconnect@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		1CD4134E1A8DD0FA00EE0FAD = {
 			isa = PBXGroup;
 			children = (
@@ -84,16 +103,14 @@
 		1CD413591A8DD0FA00EE0FAD /* PriceRangeSelector */ = {
 			isa = PBXGroup;
 			children = (
+				1CD413831A8DD1A000EE0FAD /* PriceRangeSelector.h */,
+				1CD413841A8DD1A000EE0FAD /* PriceRangeSelector.m */,
 				1CD4135E1A8DD0FA00EE0FAD /* AppDelegate.h */,
 				1CD4135F1A8DD0FA00EE0FAD /* AppDelegate.m */,
 				1CD413611A8DD0FA00EE0FAD /* MasterViewController.h */,
 				1CD413621A8DD0FA00EE0FAD /* MasterViewController.m */,
-				1CD413641A8DD0FA00EE0FAD /* DetailViewController.h */,
-				1CD413651A8DD0FA00EE0FAD /* DetailViewController.m */,
-				1CD413671A8DD0FA00EE0FAD /* Main.storyboard */,
-				1CD4136A1A8DD0FA00EE0FAD /* Images.xcassets */,
-				1CD4136C1A8DD0FA00EE0FAD /* LaunchScreen.xib */,
 				1CD4135A1A8DD0FA00EE0FAD /* Supporting Files */,
+				1CD3A3BB1A9DD2FE00F61FEB /* Images */,
 			);
 			path = PriceRangeSelector;
 			sourceTree = "<group>";
@@ -204,9 +221,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CD413691A8DD0FA00EE0FAD /* Main.storyboard in Resources */,
-				1CD4136E1A8DD0FA00EE0FAD /* LaunchScreen.xib in Resources */,
-				1CD4136B1A8DD0FA00EE0FAD /* Images.xcassets in Resources */,
+				1CD3ACD31A9EC1F400CDB39A /* sliderbg.png in Resources */,
+				1CD3ACD61A9EC1F400CDB39A /* sliderconnect@2x.png in Resources */,
+				1CD3ACD51A9EC1F400CDB39A /* sliderconnect.png in Resources */,
+				1CD3ACD11A9EC1F400CDB39A /* priceslider.png in Resources */,
+				1CD3ACD41A9EC1F400CDB39A /* sliderbg@2x.png in Resources */,
+				1CD3ACD21A9EC1F400CDB39A /* priceslider@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,7 +247,7 @@
 				1CD413601A8DD0FA00EE0FAD /* AppDelegate.m in Sources */,
 				1CD413631A8DD0FA00EE0FAD /* MasterViewController.m in Sources */,
 				1CD4135D1A8DD0FA00EE0FAD /* main.m in Sources */,
-				1CD413661A8DD0FA00EE0FAD /* DetailViewController.m in Sources */,
+				1CD413851A8DD1A000EE0FAD /* PriceRangeSelector.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,25 +268,6 @@
 			targetProxy = 1CD413741A8DD0FA00EE0FAD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		1CD413671A8DD0FA00EE0FAD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1CD413681A8DD0FA00EE0FAD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1CD4136C1A8DD0FA00EE0FAD /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1CD4136D1A8DD0FA00EE0FAD /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1CD4137B1A8DD0FA00EE0FAD /* Debug */ = {
@@ -420,6 +421,7 @@
 				1CD4137F1A8DD0FA00EE0FAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1CD413801A8DD0FA00EE0FAD /* Build configuration list for PBXNativeTarget "PriceRangeSelectorTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +430,7 @@
 				1CD413821A8DD0FA00EE0FAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
